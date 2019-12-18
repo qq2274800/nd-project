@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nd-core/nd-core.iml" filepath="$PROJECT_DIR$/nd-core/nd-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nd-dao/nd-dao.iml" filepath="$PROJECT_DIR$/nd-dao/nd-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nd-job/nd-job.iml" filepath="$PROJECT_DIR$/nd-job/nd-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nd-project.iml" filepath="$PROJECT_DIR$/nd-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nd-service/nd-service.iml" filepath="$PROJECT_DIR$/nd-service/nd-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nd-web/nd-web.iml" filepath="$PROJECT_DIR$/nd-web/nd-web.iml" />
+    </modules>
+  </component>
+</project>
