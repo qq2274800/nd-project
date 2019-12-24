@@ -3,8 +3,8 @@ package com.fangyr.web.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.fangyr.core.entity.User;
 import com.fangyr.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,7 +16,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/v1/")
-@Component
+@Slf4j
 public class ApiController {
 
     @Autowired
@@ -30,6 +30,7 @@ public class ApiController {
 
     @PostMapping(path = "/showUserAll")
     public String showUserAll() {
+        log.info("/api/v1/showUserAll---开始了");
         List<User> userList = userService.selectAll();
         return JSONObject.toJSONString(userList);
     }
