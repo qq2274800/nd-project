@@ -27,7 +27,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-<!--            <optional>true</optional>&lt;!&ndash; 防止将devtools依赖传递到其他模块中 &ndash;&gt;-->
+<!--            <optional>true</optional>&lt;!&ndash; 防止将lombok依赖传递到其他模块中 &ndash;&gt;-->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
