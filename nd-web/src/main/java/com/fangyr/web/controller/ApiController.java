@@ -24,6 +24,7 @@ public class ApiController {
 
     @RequestMapping(path = "/showUser", method = RequestMethod.POST)
     public String showUser(@RequestParam("id") Long id) {
+        log.info("/showUser ===> id:[{}]", id);
         User user = userService.selectById(id);
         return user.getName();
     }

@@ -22,17 +22,16 @@
         <dependency>
             <groupId>com.fangyr</groupId>
             <artifactId>nd-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fangyr</groupId>
             <artifactId>nd-dao</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.41</version>
         </dependency>
 
 
